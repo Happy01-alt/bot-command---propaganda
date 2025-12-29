@@ -1,3 +1,28 @@
+import discord
+import time
+import asyncio
+
+
+
+from discord.ext import commands
+
+
+
+from discord.utils import get
+
+
+
+
+
+intents = discord.Intents.all()
+
+
+
+bot = commands.Bot(".", intents=intents)
+
+
+
+
 @bot.command()
 async def pat(ctx):
     PROP = [PROPAGANDAS
